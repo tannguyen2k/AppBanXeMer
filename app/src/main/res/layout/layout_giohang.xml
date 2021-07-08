@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imagekhohang"
+            android:adjustViewBounds="true"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Tên xe"
+            android:id="@+id/tvtenxekhohang"
+            android:textColor="@color/black">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvgiaxekhohang"
+            android:textColor="#f20"
+            android:text="Giá xe"
+            android:textSize="15dp"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
